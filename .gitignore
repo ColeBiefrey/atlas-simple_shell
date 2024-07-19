@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/atlas-simple_shell/v17/.wsuo
+/.vs/atlas-simple_shell/v17/DocumentLayout.json
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/.vs/atlas-simple_shell/FileContentIndex/19e31035-9e8b-462b-b391-1e139ea0285c.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/36451d63-bf28-44d2-970b-98fd34c20b54.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/378fea02-760e-42d1-a325-01a780fa22d2.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/a4a1a51a-33b9-4fab-8ccd-d9ed04ba63c1.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/07ac46ce-52e8-4201-956f-7fbe9cdc62be.vsidx
+/.vs/atlas-simple_shell/v17/Browse.VC.db
+/.vs/atlas-simple_shell/v17/Browse.VC.db-shm
+/.vs/atlas-simple_shell/v17/Browse.VC.db-wal
+/.vs/atlas-simple_shell/v17/Browse.VC.opendb
+/.vs/atlas-simple_shell/FileContentIndex/6188d985-e622-4c57-9ff6-ae5520b75ad5.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/0510e8de-f3f5-451b-a316-9b33e683bc3e.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/d36e8b92-6d08-49c1-b3e4-42d007ba4d55.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/75aa4360-2ca0-4c3e-acf5-606502bad282.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/8b4c926d-6c4e-47e4-a3fd-6aa474166229.vsidx
+/.vs/atlas-simple_shell/FileContentIndex/9fd13c3b-5047-4c13-94bf-058571f4942e.vsidx
+/.vs/atlas-simple_shell/FileContentIndex
