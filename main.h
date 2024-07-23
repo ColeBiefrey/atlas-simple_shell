@@ -116,4 +116,7 @@ int cd_shell(data_shell *datash);
 /* exit_shell.c proxys */
 int exit_shell(data_shell *datash);
 
+/* syntax_error.c proxys */
+int error_sep_op(char *input, int i, char last);
+
 #endif
