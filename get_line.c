@@ -48,7 +48,7 @@ ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 	int i;
 	static ssize_t input;
 	ssize_t retval;
-	char* buffer;
+	char *buffer;
 	char t = 'z';
 
 	if (input == 0)

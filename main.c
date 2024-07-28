@@ -39,7 +39,7 @@ void set_data(data_shell *datash, char **av)
 	for (i = 0; environ[i]; i++)
 		;
 
-	datash->_environ = malloc(sizeof(char*) * (i + 1));
+	datash->_environ = malloc(sizeof(char *) * (i + 1));
 
 	for (i = 0; environ[i]; i++)
 	{

@@ -102,7 +102,7 @@ int first_char(char *input, int *i)
 
 void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 {
-	char *msg, * msg2, * msg3, * error, * counter;
+	char *msg, *msg2, *msg3, *error, *counter;
 	int length;
 
 	if (input[i] == ';')

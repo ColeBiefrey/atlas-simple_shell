@@ -36,7 +36,7 @@ char *copy_info(char *name, char *value)
 void set_env(char *name, char *value, data_shell *datash)
 {
 	int i;
-	char *var_env, * name_env;
+	char *var_env, *name_env;
 
 	for (i = 0; datash->_environ[i]; i++)
 	{
@@ -52,7 +52,7 @@ void set_env(char *name, char *value, data_shell *datash)
 		free(var_env);
 	}
 
-	datash->_environ = _reallocdp(datash->_environ, i, sizeof(char*) * (i + 2));
+	datash->_environ = _reallocdp(datash->_environ, i, sizeof(char *) * (i + 2));
 	datash->_environ[i] = copy_info(name, value);
 	datash->_environ[i + 1] = NULL;
 }
@@ -87,7 +87,7 @@ int _setenv(data_shell *datash)
 int _unsetenv(data_shell *datash)
 {
 	char **realloc_environ;
-	char *var_env, * name_env;
+	char *var_env, *name_env;
 	int i, j, k;
 
 	if (datash->args[1] == NULL)
@@ -111,7 +111,7 @@ int _unsetenv(data_shell *datash)
 		get_error(datash, -1);
 		return (1);
 	}
-	realloc_environ = malloc(sizeof(char*) * (i));
+	realloc_environ = malloc(sizeof(char *) * (i));
 	for (i = j = 0; datash->_environ[i]; i++)
 	{
 		if (i != k)
