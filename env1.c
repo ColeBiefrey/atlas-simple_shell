@@ -5,7 +5,7 @@
  * with passed name
  * @nenv: name of environ variable
  * @name: name passed
- * return: 0 if not equal, other value if are
+ * Return: 0 if not equal, other value if are
  */
 
 int cmp_env_name(const char *nenv, const char *name)
@@ -27,7 +27,7 @@ int cmp_env_name(const char *nenv, const char *name)
  * _getenv - get environ variable
  * @name: name of environ variable
  * @_environ: environ variable
- * return: value of environ variable if found
+ * Return: value of environ variable if found
  * otherwise return null
  */
 
