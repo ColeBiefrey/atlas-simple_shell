@@ -20,7 +20,7 @@
 #define TOK_DELIM " \t\r\n\a"
 
 /* Points to array of pointers - strings called environ */
-extern char** environ;
+extern char **environ;
 
 /**
  * struct data - this struct contains all relevant data for runtime
@@ -130,7 +130,7 @@ char **_reallocdp(char **ptr, unsigned int old_size, unsigned int new_size);
 char *_strdup(const char *s);
 int _strlen(const char *s);
 int cmp_chars(char str[], const char *delim);
-char* _strtok(char str[], const char *delim);
+char *_strtok(char str[], const char *delim);
 int _isdigit(const char *s);
 
 /* aux_str3.c proxys */
@@ -228,7 +228,7 @@ int _atoi(char *s);
 char *strcat_cd(data_shell*, char*, char*, char*);
 char *error_get_cd(data_shell *datash);
 char *error_not_found(data_shell *datash);
-char *error_exit_shell(data_shell* datash);
+char *error_exit_shell(data_shell *datash);
 
 /* aux_error2.c proxys */
 

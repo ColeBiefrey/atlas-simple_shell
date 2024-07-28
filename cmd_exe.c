@@ -32,7 +32,7 @@ int is_cdir(char *path, int *i)
 
 char *_which(char *cmd, char **_environ)
 {
-	char *path, * ptr_path, * token_path, * dir;
+	char *path, *ptr_path, *token_path, *dir;
 	int len_dir, len_cmd, i;
 	struct stat st;
 
@@ -157,7 +157,7 @@ int check_error_cmd(char *dir, data_shell *datash)
 
 /**
  * cmd_exec - executes command lines
- * @datash: data relevant 
+ * @datash: data relevant
  * Return: 1 on success
  */
 

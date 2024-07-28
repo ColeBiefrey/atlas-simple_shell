@@ -9,7 +9,7 @@
 void cd_dot(data_shell *datash)
 {
 	char pwd[PATH_MAX];
-	char *dir, * cp_pwd, * cp_strtok_pwd;
+	char *dir, *cp_pwd, *cp_strtok_pwd;
 
 	getcwd(pwd, sizeof(pwd));
 	cp_pwd = _strdup(pwd);
@@ -60,7 +60,7 @@ void cd_dot(data_shell *datash)
 void cd_to(data_shell *datash)
 {
 	char pwd[PATH_MAX];
-	char *dir, * cp_pwd, * cp_dir;
+	char *dir, *cp_pwd, *cp_dir;
 
 	getcwd(pwd, sizeof(pwd));
 
@@ -94,7 +94,7 @@ void cd_to(data_shell *datash)
 void cd_previous(data_shell *datash)
 {
 	char pwd[PATH_MAX];
-	char *p_pwd, * p_oldpwd, * cp_pwd, * cp_oldpwd;
+	char *p_pwd, *p_oldpwd, *cp_pwd, *cp_oldpwd;
 
 	getcwd(pwd, sizeof(pwd));
 	cp_pwd = _strdup(pwd);
@@ -135,7 +135,7 @@ void cd_previous(data_shell *datash)
 
 void cd_to_home(data_shell *datash)
 {
-	char *p_pwd, * home;
+	char *p_pwd, *home;
 	char pwd[PATH_MAX];
 
 	getcwd(pwd, sizeof(pwd));

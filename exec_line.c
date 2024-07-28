@@ -8,7 +8,7 @@
 
 int exec_line(data_shell *datash)
 {
-	int (*builtin)(data_shell * datash);
+	int (*builtin)(data_shell *datash);
 
 	if (datash->args[0] == NULL)
 		return (1);

@@ -132,8 +132,8 @@ void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
 int split_commands(data_shell *datash, char *input)
 {
 
-	sep_list *head_s, * list_s;
-	line_list *head_l, * list_l;
+	sep_list *head_s, *list_s;
+	line_list *head_l, *list_l;
 	int loop;
 
 	head_s = NULL;
@@ -182,7 +182,7 @@ char **split_line(char *input)
 	char *token;
 
 	bsize = TOK_BUFSIZE;
-	tokens = malloc(sizeof(char*) * (bsize));
+	tokens = malloc(sizeof(char *) * (bsize));
 	if (tokens == NULL)
 	{
 		write(STDERR_FILENO, ": allocation error\n", 18);
@@ -197,7 +197,7 @@ char **split_line(char *input)
 		if (i == bsize)
 		{
 			bsize += TOK_BUFSIZE;
-			tokens = _reallocdp(tokens, i, sizeof(char*) * bsize);
+			tokens = _reallocdp(tokens, i, sizeof(char *) * bsize);
 			if (tokens == NULL)
 			{
 				write(STDERR_FILENO, ": allocation error\n", 18);

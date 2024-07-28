@@ -144,8 +144,8 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 
 char *rep_var(char *input, data_shell *datash)
 {
-	r_var *head, * indx;
-	char *status, * new_input;
+	r_var *head, *indx;
+	char *status, *new_input;
 	int olen, nlen;
 
 	status = aux_itoa(datash->status);

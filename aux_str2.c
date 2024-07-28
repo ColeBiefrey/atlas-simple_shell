@@ -71,7 +71,7 @@ int cmp_chars(char str[], const char *delim)
 
 char *_strtok(char str[], const char *delim)
 {
-	static char *splitted, * str_end;
+	static char *splitted, *str_end;
 	char *str_start;
 	unsigned int i, bool;
 
@@ -116,7 +116,7 @@ char *_strtok(char str[], const char *delim)
  * Return: 1 if string is num 0 otherwise
  */
 
-int _isdigit(const char* s)
+int _isdigit(const char *s)
 {
 	unsigned int i;
 
