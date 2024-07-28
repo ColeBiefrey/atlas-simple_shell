@@ -40,7 +40,7 @@ sep_list *add_sep_node_end(sep_list **head, char sep)
  * Return: none
  */
 
-void free_sep_list(sep_list * head)
+void free_sep_list(sep_list **head)
 {
 	sep_list *temp;
 	sep_list *curr;
