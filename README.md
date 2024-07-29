@@ -3,9 +3,7 @@
 
 -----
 
-### Files:
-
------
+### Files: This section is dedicated to listing the files present in the shell repository. Each listing will include a brief, high-level description of the file.
 
 **main.h**
 
