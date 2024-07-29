@@ -1,5 +1,5 @@
 # Atlas Simple Shell
-**This program is a rudimentary simple shell based on bash. Intended as a practice exercise in command management.**
+**A program built to be a rudimentary simple shell based on bash. Intended as a practice exercise in command management.**
 
 -----
 
