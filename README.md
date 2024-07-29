@@ -3,7 +3,8 @@
 
 -----
 
-### Files: This section is dedicated to listing the files present in the shell repository. Each listing will include a brief, high-level description of the file.
+### Files: 
+**This section is dedicated to listing the files present in the shell repository. Each listing will include a brief, high-level description of the file.**
 
 -----
 
@@ -47,3 +48,4 @@ Continued processes from `aux_help1.c`. Prints help info for `alias` and `cd`.
 -----
 
 - `aux_lists1`
+
