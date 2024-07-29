@@ -31,3 +31,19 @@ Returns error messages in the event an error is not found or an error is encount
 - `aux_error2.c`
 
 Returns error messages in the event that an error is encountered when permission is denied or in the use of the `av` command.
+
+-----
+
+- `aux_help1.c`
+
+Prints help info for the commands `env` ,`setenv` ,`unsetenv` ,`exit` , and general help info.
+
+-----
+
+- `aux_help2.c`
+
+Continued processes from `aux_help1.c`. Prints help info for `alias` and `cd`.
+
+-----
+
+- `aux_lists1`
