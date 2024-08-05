@@ -6,3 +6,24 @@ NAME
 SYNOPSIS
 
 DESCRIPTIION
+    This Simple Shell is a basic interpreter that can output commands based on
+    inputs or allocated files.
+
+    This shell is started with standard input to the terminal which makes it begin in
+    interactive state.  Non interactive modes can be relied on via simple programs
+
+    Once in Interactive Mode a prompt is displayed that reads inputs, with said command line argument being invoked
+
+
+COMMANDS
+    If the input command contains no slashes, the shell will seek for the function.
+    If said function exists, it will be called.  If it is unable to be found, it will look in the
+    builtins, and call that if neccesary.
+
+    If the input is neither a function or a builtin, and has no slashs, it will search the elements and directory for a match.
+    These are connected in the shell by a accessable hash table.
+    A full such is performed only if the command is not found in the hash table. if the search fails, it will attempt to find a defined function
+    it will invoke a Command Not Found and add its paramaters.
+
+    If all functions are pulled successfuly, they are set and output with the remaining arguments.
+
